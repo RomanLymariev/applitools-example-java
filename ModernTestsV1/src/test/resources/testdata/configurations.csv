@@ -1,0 +1,8 @@
+No.;Browser;Width;Height;Device;DeviceName
+  0;CHROME;1200;700;Laptop;
+  1;FIREFOX;1200;700;Laptop;
+  2;EDGE_CHROMIUM;1200;700;Laptop;
+  3;CHROME;768;700;Tablet;
+  4;FIREFOX;768;700;Tablet;
+  5;EDGE_CHROMIUM;768;700;Tablet;
+  6;CHROME;500;700;iPhone X;iPhone_X
