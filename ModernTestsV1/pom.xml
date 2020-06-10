@@ -15,8 +15,6 @@
     <maven.compiler.source>${java.version}</maven.compiler.source>
     <maven.compiler.target>${java.version}</maven.compiler.target>
     <mavencompiler.version>3.8.1</mavencompiler.version>
-    <webdriver.chrome.driver>/Users/rlymariev/work/projects/applitools-example/ModernTestsV1/src/test/resources/drivers/chromedriver
-    </webdriver.chrome.driver>  <!-- TODO: remove this line -->
   </properties>
 
   <dependencies>
@@ -26,15 +24,9 @@
       <version>RELEASE</version>
     </dependency>
     <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.11</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.tngtech.java</groupId>
-      <artifactId>junit-dataprovider</artifactId>
-      <version>1.13.1</version>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-params</artifactId>
+      <version>5.4.2</version>
       <scope>test</scope>
     </dependency>
     <dependency>

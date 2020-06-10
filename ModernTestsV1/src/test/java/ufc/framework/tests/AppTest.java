@@ -1,16 +1,17 @@
 package ufc.framework.tests;
 
 import com.applitools.eyes.BatchInfo;
-import com.applitools.eyes.TestResultsSummary;
 import com.applitools.eyes.selenium.Configuration;
 import com.applitools.eyes.selenium.Eyes;
-import com.applitools.eyes.selenium.fluent.Target;
 import com.applitools.eyes.visualgrid.services.VisualGridRunner;
-import org.junit.AfterClass;
-import org.junit.BeforeClass;
-import org.junit.Test;
+
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import ufc.framework.pages.MainPage;
 import ufc.framework.utils.testdata.TestData;
 import ufc.framework.utils.testdata.TestProperties;
 
@@ -20,7 +21,9 @@ public class AppTest {
   private static WebDriver webDriver;
   private static VisualGridRunner runner;
 
-  @BeforeClass
+  private static final String SEARCH_CRITERIA_TEXT = "Black";
+
+  @BeforeAll
   public static void setUp() {
     runner = new VisualGridRunner(6);
     webDriver = new ChromeDriver();
@@ -34,22 +37,46 @@ public class AppTest {
     eyes.setConfiguration(config);
   }
 
-  @Test()
-  public void responsiveDesignTest() {
+  @Test
+  public void task1_responsiveDesignTest() {
     webDriver.get(TestProperties.getUrl());
-    eyes.open(webDriver, "Cross-Device Elements Test", "Test 1");
-    eyes.check(Target.window().fully());
+    eyes.open(webDriver, "Cross-Device Elements Test", "Task 1");
+
+    eyes.checkWindow();
+  }
+
+  @Test
+  public void task2_shoppingExperienceTest() {
+    webDriver.get(TestProperties.getUrl());
+    eyes.open(webDriver, "Filter Results", "Task 2");
+
+    MainPage mainPage = new MainPage(webDriver);
+    mainPage.applySearchFilters(SEARCH_CRITERIA_TEXT);
+
+    eyes.checkElement(mainPage.getProductGridBy());
+  }
+
+  @Test
+  public void task3_productDetailsTest() {
+    webDriver.get(TestProperties.getUrl());
+    eyes.open(webDriver, "Product Details", "Task 3");
+
+    new MainPage(webDriver)
+        .applySearchFilters(SEARCH_CRITERIA_TEXT)
+        .selectGridProduct(0);
+
+    eyes.checkWindow();
+  }
+
+  @AfterEach
+  public void closeEyesAsync() {
     eyes.closeAsync();
   }
 
-  @AfterClass
+  @AfterAll
   public static void tearDown() {
-    // Close the browser
     webDriver.quit();
-
-    // we pass false to this method to suppress the exception that is thrown if we find visual differences
-    TestResultsSummary allTestResults = runner.getAllTestResults(false);
-    System.out.println(allTestResults);
+    logTestResults();
   }
 
   // ---
@@ -62,6 +89,10 @@ public class AppTest {
         config.addDeviceEmulation(eyesConfig.getDeviceName());
       }
     });
+  }
+
+  private static void logTestResults() {
+    System.out.println(runner.getAllTestResults(false));
   }
 
 }

@@ -3,7 +3,6 @@ package ufc.framework.utils.testdata;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.InputStream;
-import java.io.Reader;
 import java.net.URL;
 
 public class ResourceHelper {
