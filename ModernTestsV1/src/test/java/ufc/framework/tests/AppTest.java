@@ -25,7 +25,7 @@ public class AppTest {
 
   @BeforeAll
   public static void setUp() {
-    runner = new VisualGridRunner(6);
+    runner = new VisualGridRunner(10);
     webDriver = new ChromeDriver();
     eyes = new Eyes(runner);
 
