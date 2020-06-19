@@ -1,0 +1,11 @@
+Test name;Element locator;Strategy
+Main menu;//*[@class=‘main-menu'];xpath
+Search input;//*[@custom-search-input'];xpath
+Search placeholder text;//*[@class='custom-search-input']/input;xpath
+Start Search button;//button[@type='submit'];xpath
+Wishlist link (heart icon);//*[@class='wishlist'];xpath
+Current cart size text;//*[@class='cart_bt']/strong;xpath
+Filters sidebar;//*[@class='filter_col'];xpath
+Toolbox container;//*[contains(@class, 'toolbox')];xpath
+Footer;//*[contains(@id, 'FOOTER')];xpath
+Tooltips (add to favourites/compare/cart);//*[@data-toggle="tooltip"]/ancestor::ul
