@@ -1,0 +1,133 @@
+Task: 1, Test Name: Check cart size visibility, DOM Id: STRONG____50, Viewport: 1200x700, Browser: MicrosoftEdge, Device: Laptop, Status: Pass
+Task: 1, Test Name: Check cart size visibility, DOM Id: STRONG____50, Viewport: 1200x700, Browser: chrome, Device: Laptop, Status: Pass
+Task: 1, Test Name: Check cart size visibility, DOM Id: STRONG____50, Viewport: 1200x700, Browser: firefox, Device: Laptop, Status: Pass
+Task: 1, Test Name: Check cart size visibility, DOM Id: STRONG____50, Viewport: 500x700, Browser: chrome, Device: iPhone X, Status: Pass
+Task: 1, Test Name: Check cart size visibility, DOM Id: STRONG____50, Viewport: 768x700, Browser: MicrosoftEdge, Device: Tablet, Status: Pass
+Task: 1, Test Name: Check cart size visibility, DOM Id: STRONG____50, Viewport: 768x700, Browser: chrome, Device: Tablet, Status: Pass
+Task: 1, Test Name: Check cart size visibility, DOM Id: STRONG____50, Viewport: 768x700, Browser: firefox, Device: Tablet, Status: Pass
+Task: 1, Test Name: Check item tooltips visibility, DOM Id: A__tooltip__224, Viewport: 1200x700, Browser: MicrosoftEdge, Device: Laptop, Status: Pass
+Task: 1, Test Name: Check item tooltips visibility, DOM Id: A__tooltip__224, Viewport: 1200x700, Browser: chrome, Device: Laptop, Status: Pass
+Task: 1, Test Name: Check item tooltips visibility, DOM Id: A__tooltip__224, Viewport: 1200x700, Browser: firefox, Device: Laptop, Status: Pass
+Task: 1, Test Name: Check item tooltips visibility, DOM Id: A__tooltip__224, Viewport: 500x700, Browser: chrome, Device: iPhone X, Status: Pass
+Task: 1, Test Name: Check item tooltips visibility, DOM Id: A__tooltip__224, Viewport: 768x700, Browser: MicrosoftEdge, Device: Tablet, Status: Pass
+Task: 1, Test Name: Check item tooltips visibility, DOM Id: A__tooltip__224, Viewport: 768x700, Browser: chrome, Device: Tablet, Status: Pass
+Task: 1, Test Name: Check item tooltips visibility, DOM Id: A__tooltip__224, Viewport: 768x700, Browser: firefox, Device: Tablet, Status: Pass
+Task: 1, Test Name: Check quick links expanded visibility, DOM Id: collapse_1, Viewport: 1200x700, Browser: MicrosoftEdge, Device: Laptop, Status: Pass
+Task: 1, Test Name: Check quick links expanded visibility, DOM Id: collapse_1, Viewport: 1200x700, Browser: chrome, Device: Laptop, Status: Pass
+Task: 1, Test Name: Check quick links expanded visibility, DOM Id: collapse_1, Viewport: 1200x700, Browser: firefox, Device: Laptop, Status: Pass
+Task: 1, Test Name: Check quick links expanded visibility, DOM Id: collapse_1, Viewport: 500x700, Browser: chrome, Device: iPhone X, Status: Pass
+Task: 1, Test Name: Check quick links expanded visibility, DOM Id: collapse_1, Viewport: 768x700, Browser: MicrosoftEdge, Device: Tablet, Status: Pass
+Task: 1, Test Name: Check quick links expanded visibility, DOM Id: collapse_1, Viewport: 768x700, Browser: chrome, Device: Tablet, Status: Pass
+Task: 1, Test Name: Check quick links expanded visibility, DOM Id: collapse_1, Viewport: 768x700, Browser: firefox, Device: Tablet, Status: Pass
+Task: 1, Test Name: Check search input visibility, DOM Id: DIV__customsear__41, Viewport: 1200x700, Browser: MicrosoftEdge, Device: Laptop, Status: Pass
+Task: 1, Test Name: Check search input visibility, DOM Id: DIV__customsear__41, Viewport: 1200x700, Browser: chrome, Device: Laptop, Status: Pass
+Task: 1, Test Name: Check search input visibility, DOM Id: DIV__customsear__41, Viewport: 1200x700, Browser: firefox, Device: Laptop, Status: Pass
+Task: 1, Test Name: Check search input visibility, DOM Id: DIV__customsear__41, Viewport: 500x700, Browser: chrome, Device: iPhone X, Status: Pass
+Task: 1, Test Name: Check search input visibility, DOM Id: DIV__customsear__41, Viewport: 768x700, Browser: MicrosoftEdge, Device: Tablet, Status: Pass
+Task: 1, Test Name: Check search input visibility, DOM Id: DIV__customsear__41, Viewport: 768x700, Browser: chrome, Device: Tablet, Status: Pass
+Task: 1, Test Name: Check search input visibility, DOM Id: DIV__customsear__41, Viewport: 768x700, Browser: firefox, Device: Tablet, Status: Pass
+Task: 1, Test Name: Check search placeholder text visibility, DOM Id: INPUTtext____42, Viewport: 1200x700, Browser: MicrosoftEdge, Device: Laptop, Status: Pass
+Task: 1, Test Name: Check search placeholder text visibility, DOM Id: INPUTtext____42, Viewport: 1200x700, Browser: chrome, Device: Laptop, Status: Pass
+Task: 1, Test Name: Check search placeholder text visibility, DOM Id: INPUTtext____42, Viewport: 1200x700, Browser: firefox, Device: Laptop, Status: Pass
+Task: 1, Test Name: Check search placeholder text visibility, DOM Id: INPUTtext____42, Viewport: 500x700, Browser: chrome, Device: iPhone X, Status: Pass
+Task: 1, Test Name: Check search placeholder text visibility, DOM Id: INPUTtext____42, Viewport: 768x700, Browser: MicrosoftEdge, Device: Tablet, Status: Pass
+Task: 1, Test Name: Check search placeholder text visibility, DOM Id: INPUTtext____42, Viewport: 768x700, Browser: chrome, Device: Tablet, Status: Pass
+Task: 1, Test Name: Check search placeholder text visibility, DOM Id: INPUTtext____42, Viewport: 768x700, Browser: firefox, Device: Tablet, Status: Pass
+Task: 1, Test Name: Check start search button visibility, DOM Id: BUTTONsubmit____43, Viewport: 1200x700, Browser: MicrosoftEdge, Device: Laptop, Status: Pass
+Task: 1, Test Name: Check start search button visibility, DOM Id: BUTTONsubmit____43, Viewport: 1200x700, Browser: chrome, Device: Laptop, Status: Pass
+Task: 1, Test Name: Check start search button visibility, DOM Id: BUTTONsubmit____43, Viewport: 1200x700, Browser: firefox, Device: Laptop, Status: Pass
+Task: 1, Test Name: Check start search button visibility, DOM Id: BUTTONsubmit____43, Viewport: 500x700, Browser: chrome, Device: iPhone X, Status: Pass
+Task: 1, Test Name: Check start search button visibility, DOM Id: BUTTONsubmit____43, Viewport: 768x700, Browser: MicrosoftEdge, Device: Tablet, Status: Pass
+Task: 1, Test Name: Check start search button visibility, DOM Id: BUTTONsubmit____43, Viewport: 768x700, Browser: chrome, Device: Tablet, Status: Pass
+Task: 1, Test Name: Check start search button visibility, DOM Id: BUTTONsubmit____43, Viewport: 768x700, Browser: firefox, Device: Tablet, Status: Pass
+Task: 1, Test Name: Check toolbox grid view visibility, DOM Id: I__tiviewgrid__202, Viewport: 1200x700, Browser: MicrosoftEdge, Device: Laptop, Status: Pass
+Task: 1, Test Name: Check toolbox grid view visibility, DOM Id: I__tiviewgrid__202, Viewport: 1200x700, Browser: chrome, Device: Laptop, Status: Pass
+Task: 1, Test Name: Check toolbox grid view visibility, DOM Id: I__tiviewgrid__202, Viewport: 1200x700, Browser: firefox, Device: Laptop, Status: Pass
+Task: 1, Test Name: Check toolbox grid view visibility, DOM Id: I__tiviewgrid__202, Viewport: 500x700, Browser: chrome, Device: iPhone X, Status: Pass
+Task: 1, Test Name: Check toolbox grid view visibility, DOM Id: I__tiviewgrid__202, Viewport: 768x700, Browser: MicrosoftEdge, Device: Tablet, Status: Pass
+Task: 1, Test Name: Check toolbox grid view visibility, DOM Id: I__tiviewgrid__202, Viewport: 768x700, Browser: chrome, Device: Tablet, Status: Pass
+Task: 1, Test Name: Check toolbox grid view visibility, DOM Id: I__tiviewgrid__202, Viewport: 768x700, Browser: firefox, Device: Tablet, Status: Pass
+Task: 1, Test Name: Check toolbox list view visibility, DOM Id: I__tiviewlist__204, Viewport: 1200x700, Browser: MicrosoftEdge, Device: Laptop, Status: Pass
+Task: 1, Test Name: Check toolbox list view visibility, DOM Id: I__tiviewlist__204, Viewport: 1200x700, Browser: chrome, Device: Laptop, Status: Pass
+Task: 1, Test Name: Check toolbox list view visibility, DOM Id: I__tiviewlist__204, Viewport: 1200x700, Browser: firefox, Device: Laptop, Status: Pass
+Task: 1, Test Name: Check toolbox list view visibility, DOM Id: I__tiviewlist__204, Viewport: 500x700, Browser: chrome, Device: iPhone X, Status: Pass
+Task: 1, Test Name: Check toolbox list view visibility, DOM Id: I__tiviewlist__204, Viewport: 768x700, Browser: MicrosoftEdge, Device: Tablet, Status: Pass
+Task: 1, Test Name: Check toolbox list view visibility, DOM Id: I__tiviewlist__204, Viewport: 768x700, Browser: chrome, Device: Tablet, Status: Pass
+Task: 1, Test Name: Check toolbox list view visibility, DOM Id: I__tiviewlist__204, Viewport: 768x700, Browser: firefox, Device: Tablet, Status: Pass
+Task: 1, Test Name: Check toolbox open filters visibility, DOM Id: ti-filter, Viewport: 1200x700, Browser: MicrosoftEdge, Device: Laptop, Status: Pass
+Task: 1, Test Name: Check toolbox open filters visibility, DOM Id: ti-filter, Viewport: 1200x700, Browser: chrome, Device: Laptop, Status: Pass
+Task: 1, Test Name: Check toolbox open filters visibility, DOM Id: ti-filter, Viewport: 1200x700, Browser: firefox, Device: Laptop, Status: Pass
+Task: 1, Test Name: Check toolbox open filters visibility, DOM Id: ti-filter, Viewport: 500x700, Browser: chrome, Device: iPhone X, Status: Pass
+Task: 1, Test Name: Check toolbox open filters visibility, DOM Id: ti-filter, Viewport: 768x700, Browser: MicrosoftEdge, Device: Tablet, Status: Pass
+Task: 1, Test Name: Check toolbox open filters visibility, DOM Id: ti-filter, Viewport: 768x700, Browser: chrome, Device: Tablet, Status: Pass
+Task: 1, Test Name: Check toolbox open filters visibility, DOM Id: ti-filter, Viewport: 768x700, Browser: firefox, Device: Tablet, Status: Pass
+Task: 1, Test Name: Check tooltips count with hover, DOM Id: A__tooltip__224, Viewport: 1200x700, Browser: MicrosoftEdge, Device: Laptop, Status: Pass
+Task: 1, Test Name: Check tooltips count with hover, DOM Id: A__tooltip__224, Viewport: 1200x700, Browser: chrome, Device: Laptop, Status: Pass
+Task: 1, Test Name: Check tooltips count with hover, DOM Id: A__tooltip__224, Viewport: 1200x700, Browser: firefox, Device: Laptop, Status: Pass
+Task: 1, Test Name: Check tooltips count with hover, DOM Id: A__tooltip__224, Viewport: 500x700, Browser: chrome, Device: iPhone X, Status: Pass
+Task: 1, Test Name: Check tooltips count with hover, DOM Id: A__tooltip__224, Viewport: 768x700, Browser: MicrosoftEdge, Device: Tablet, Status: Pass
+Task: 1, Test Name: Check tooltips count with hover, DOM Id: A__tooltip__224, Viewport: 768x700, Browser: chrome, Device: Tablet, Status: Pass
+Task: 1, Test Name: Check tooltips count with hover, DOM Id: A__tooltip__224, Viewport: 768x700, Browser: firefox, Device: Tablet, Status: Pass
+Task: 1, Test Name: Check wishlist icon visibility, DOM Id: A__wishlist__52, Viewport: 1200x700, Browser: MicrosoftEdge, Device: Laptop, Status: Pass
+Task: 1, Test Name: Check wishlist icon visibility, DOM Id: A__wishlist__52, Viewport: 1200x700, Browser: chrome, Device: Laptop, Status: Pass
+Task: 1, Test Name: Check wishlist icon visibility, DOM Id: A__wishlist__52, Viewport: 1200x700, Browser: firefox, Device: Laptop, Status: Pass
+Task: 1, Test Name: Check wishlist icon visibility, DOM Id: A__wishlist__52, Viewport: 500x700, Browser: chrome, Device: iPhone X, Status: Pass
+Task: 1, Test Name: Check wishlist icon visibility, DOM Id: A__wishlist__52, Viewport: 768x700, Browser: MicrosoftEdge, Device: Tablet, Status: Pass
+Task: 1, Test Name: Check wishlist icon visibility, DOM Id: A__wishlist__52, Viewport: 768x700, Browser: chrome, Device: Tablet, Status: Pass
+Task: 1, Test Name: Check wishlist icon visibility, DOM Id: A__wishlist__52, Viewport: 768x700, Browser: firefox, Device: Tablet, Status: Pass
+Task: 2, Test Name: Filter by 'Black'. Ensure 2 products are displayed, DOM Id: null, Viewport: 1200x700, Browser: MicrosoftEdge, Device: Laptop, Status: Pass
+Task: 2, Test Name: Filter by 'Black'. Ensure 2 products are displayed, DOM Id: null, Viewport: 1200x700, Browser: chrome, Device: Laptop, Status: Pass
+Task: 2, Test Name: Filter by 'Black'. Ensure 2 products are displayed, DOM Id: null, Viewport: 1200x700, Browser: firefox, Device: Laptop, Status: Pass
+Task: 2, Test Name: Filter by 'Black'. Ensure 2 products are displayed, DOM Id: null, Viewport: 500x700, Browser: chrome, Device: iPhone X, Status: Pass
+Task: 2, Test Name: Filter by 'Black'. Ensure 2 products are displayed, DOM Id: null, Viewport: 768x700, Browser: MicrosoftEdge, Device: Tablet, Status: Pass
+Task: 2, Test Name: Filter by 'Black'. Ensure 2 products are displayed, DOM Id: null, Viewport: 768x700, Browser: chrome, Device: Tablet, Status: Pass
+Task: 2, Test Name: Filter by 'Black'. Ensure 2 products are displayed, DOM Id: null, Viewport: 768x700, Browser: firefox, Device: Tablet, Status: Pass
+Task: 3, Test Name: Check correct new price visibility, DOM Id: new_price, Viewport: 1200x700, Browser: MicrosoftEdge, Device: Laptop, Status: Pass
+Task: 3, Test Name: Check correct new price visibility, DOM Id: new_price, Viewport: 1200x700, Browser: chrome, Device: Laptop, Status: Pass
+Task: 3, Test Name: Check correct new price visibility, DOM Id: new_price, Viewport: 1200x700, Browser: firefox, Device: Laptop, Status: Pass
+Task: 3, Test Name: Check correct new price visibility, DOM Id: new_price, Viewport: 500x700, Browser: chrome, Device: iPhone X, Status: Pass
+Task: 3, Test Name: Check correct new price visibility, DOM Id: new_price, Viewport: 768x700, Browser: MicrosoftEdge, Device: Tablet, Status: Pass
+Task: 3, Test Name: Check correct new price visibility, DOM Id: new_price, Viewport: 768x700, Browser: chrome, Device: Tablet, Status: Pass
+Task: 3, Test Name: Check correct new price visibility, DOM Id: new_price, Viewport: 768x700, Browser: firefox, Device: Tablet, Status: Pass
+Task: 3, Test Name: Check invalid rating visibility, DOM Id: n/a, Viewport: 1200x700, Browser: MicrosoftEdge, Device: Laptop, Status: Pass
+Task: 3, Test Name: Check invalid rating visibility, DOM Id: n/a, Viewport: 1200x700, Browser: chrome, Device: Laptop, Status: Pass
+Task: 3, Test Name: Check invalid rating visibility, DOM Id: n/a, Viewport: 1200x700, Browser: firefox, Device: Laptop, Status: Pass
+Task: 3, Test Name: Check invalid rating visibility, DOM Id: n/a, Viewport: 500x700, Browser: chrome, Device: iPhone X, Status: Pass
+Task: 3, Test Name: Check invalid rating visibility, DOM Id: n/a, Viewport: 768x700, Browser: MicrosoftEdge, Device: Tablet, Status: Pass
+Task: 3, Test Name: Check invalid rating visibility, DOM Id: n/a, Viewport: 768x700, Browser: chrome, Device: Tablet, Status: Pass
+Task: 3, Test Name: Check invalid rating visibility, DOM Id: n/a, Viewport: 768x700, Browser: firefox, Device: Tablet, Status: Pass
+Task: 3, Test Name: Check old price css attribute: text-decoration-color, DOM Id: , Viewport: 1200x700, Browser: MicrosoftEdge, Device: Laptop, Status: Pass
+Task: 3, Test Name: Check old price css attribute: text-decoration-color, DOM Id: , Viewport: 1200x700, Browser: chrome, Device: Laptop, Status: Pass
+Task: 3, Test Name: Check old price css attribute: text-decoration-color, DOM Id: , Viewport: 1200x700, Browser: firefox, Device: Laptop, Status: Pass
+Task: 3, Test Name: Check old price css attribute: text-decoration-color, DOM Id: , Viewport: 500x700, Browser: chrome, Device: iPhone X, Status: Pass
+Task: 3, Test Name: Check old price css attribute: text-decoration-color, DOM Id: , Viewport: 768x700, Browser: MicrosoftEdge, Device: Tablet, Status: Pass
+Task: 3, Test Name: Check old price css attribute: text-decoration-color, DOM Id: , Viewport: 768x700, Browser: chrome, Device: Tablet, Status: Pass
+Task: 3, Test Name: Check old price css attribute: text-decoration-color, DOM Id: , Viewport: 768x700, Browser: firefox, Device: Tablet, Status: Pass
+Task: 3, Test Name: Check old price css attribute: text-decoration-line, DOM Id: , Viewport: 1200x700, Browser: MicrosoftEdge, Device: Laptop, Status: Pass
+Task: 3, Test Name: Check old price css attribute: text-decoration-line, DOM Id: , Viewport: 1200x700, Browser: chrome, Device: Laptop, Status: Pass
+Task: 3, Test Name: Check old price css attribute: text-decoration-line, DOM Id: , Viewport: 1200x700, Browser: firefox, Device: Laptop, Status: Pass
+Task: 3, Test Name: Check old price css attribute: text-decoration-line, DOM Id: , Viewport: 500x700, Browser: chrome, Device: iPhone X, Status: Pass
+Task: 3, Test Name: Check old price css attribute: text-decoration-line, DOM Id: , Viewport: 768x700, Browser: MicrosoftEdge, Device: Tablet, Status: Pass
+Task: 3, Test Name: Check old price css attribute: text-decoration-line, DOM Id: , Viewport: 768x700, Browser: chrome, Device: Tablet, Status: Pass
+Task: 3, Test Name: Check old price css attribute: text-decoration-line, DOM Id: , Viewport: 768x700, Browser: firefox, Device: Tablet, Status: Pass
+Task: 3, Test Name: Check sku visibility, DOM Id: SMALL____84, Viewport: 1200x700, Browser: MicrosoftEdge, Device: Laptop, Status: Pass
+Task: 3, Test Name: Check sku visibility, DOM Id: SMALL____84, Viewport: 1200x700, Browser: chrome, Device: Laptop, Status: Pass
+Task: 3, Test Name: Check sku visibility, DOM Id: SMALL____84, Viewport: 1200x700, Browser: firefox, Device: Laptop, Status: Pass
+Task: 3, Test Name: Check sku visibility, DOM Id: SMALL____84, Viewport: 500x700, Browser: chrome, Device: iPhone X, Status: Pass
+Task: 3, Test Name: Check sku visibility, DOM Id: SMALL____84, Viewport: 768x700, Browser: MicrosoftEdge, Device: Tablet, Status: Pass
+Task: 3, Test Name: Check sku visibility, DOM Id: SMALL____84, Viewport: 768x700, Browser: chrome, Device: Tablet, Status: Pass
+Task: 3, Test Name: Check sku visibility, DOM Id: SMALL____84, Viewport: 768x700, Browser: firefox, Device: Tablet, Status: Pass
+Task: 3, Test Name: Check small size option visibility, DOM Id: , Viewport: 1200x700, Browser: MicrosoftEdge, Device: Laptop, Status: Pass
+Task: 3, Test Name: Check small size option visibility, DOM Id: , Viewport: 1200x700, Browser: chrome, Device: Laptop, Status: Pass
+Task: 3, Test Name: Check small size option visibility, DOM Id: , Viewport: 1200x700, Browser: firefox, Device: Laptop, Status: Pass
+Task: 3, Test Name: Check small size option visibility, DOM Id: , Viewport: 500x700, Browser: chrome, Device: iPhone X, Status: Pass
+Task: 3, Test Name: Check small size option visibility, DOM Id: , Viewport: 768x700, Browser: MicrosoftEdge, Device: Tablet, Status: Pass
+Task: 3, Test Name: Check small size option visibility, DOM Id: , Viewport: 768x700, Browser: chrome, Device: Tablet, Status: Pass
+Task: 3, Test Name: Check small size option visibility, DOM Id: , Viewport: 768x700, Browser: firefox, Device: Tablet, Status: Pass
+Task: 3, Test Name: Check valid rating visibility, DOM Id: EM____82, Viewport: 1200x700, Browser: MicrosoftEdge, Device: Laptop, Status: Pass
+Task: 3, Test Name: Check valid rating visibility, DOM Id: EM____82, Viewport: 1200x700, Browser: chrome, Device: Laptop, Status: Pass
+Task: 3, Test Name: Check valid rating visibility, DOM Id: EM____82, Viewport: 1200x700, Browser: firefox, Device: Laptop, Status: Pass
+Task: 3, Test Name: Check valid rating visibility, DOM Id: EM____82, Viewport: 500x700, Browser: chrome, Device: iPhone X, Status: Pass
+Task: 3, Test Name: Check valid rating visibility, DOM Id: EM____82, Viewport: 768x700, Browser: MicrosoftEdge, Device: Tablet, Status: Pass
+Task: 3, Test Name: Check valid rating visibility, DOM Id: EM____82, Viewport: 768x700, Browser: chrome, Device: Tablet, Status: Pass
+Task: 3, Test Name: Check valid rating visibility, DOM Id: EM____82, Viewport: 768x700, Browser: firefox, Device: Tablet, Status: Pass
