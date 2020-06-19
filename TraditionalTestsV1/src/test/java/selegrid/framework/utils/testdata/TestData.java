@@ -53,6 +53,10 @@ public class TestData {
     return get(key.concat(".css"));
   }
 
+  public static String getExpectedCssAttribute(String elementAttributeKey) {
+    return get(elementAttributeKey);
+  }
+
   // --- Reusable ----
   private static String get(String varKey) {
     return TestProperties.getProperties().getProperty(varKey);

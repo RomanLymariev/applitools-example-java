@@ -2,17 +2,13 @@ package selegrid.framework.pages;
 
 import java.util.List;
 import org.openqa.selenium.By;
-import org.openqa.selenium.NotFoundException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import selegrid.framework.utils.testdata.TestData;
 
-public class MainPage {
-
-  private static WebDriver webDriver;
+public class MainPage extends AnyPage {
 
   private static final By SIDEBAR_FILTERS_BY = By.id("sidebar_filters");
   private static final By FILTER_BUTTON_BY = By.id("filterBtn");
@@ -23,21 +19,14 @@ public class MainPage {
 
   private static final String FILTER_BY_TEXT_TEMPLATE = "//label[contains(text(), \"%s\")]";
 
-  private static String currentElementDomId = "not initialized";
-
   public MainPage(WebDriver webDriver) {
-    this.webDriver = webDriver;
+    super(webDriver);
   }
 
   // --- navigation ---
-  public By getProductGridBy() {
-    return PRODUCT_GRID_BY;
-  }
-
   public MainPage applySearchFilters(String filter) {
     String[] filters = {filter};
     applySearchFilters(filters);
-
     return this;
   }
 
@@ -49,11 +38,10 @@ public class MainPage {
     }
 
     clickApplyFilters();
-
     return this;
   }
 
-  public MainPage selectGridProduct(int gridPosition) {
+  public ProductDetailsPage selectGridProductByPosition(int gridPosition) {
     List<WebElement> productsInGrid = webDriver.findElement(PRODUCT_GRID_BY)
         .findElements(PRODUCT_IMG_BY);
 
@@ -66,17 +54,21 @@ public class MainPage {
           gridPosition,
           productsInGrid.size()));
     }
+    return new ProductDetailsPage(webDriver);
+  }
 
-    return this;
+  public int getGridElementsCount() {
+    return webDriver.findElements(GRID_ITEM_BY).size();
   }
 
   // --- actions ---
-  public void hoverOverGridItem() {
+  public MainPage hoverOverGridItem() {
     Actions action = new Actions(webDriver);
     action.moveToElement(webDriver.findElement(GRID_ITEM_BY))
         .pause(500)
         .build()
         .perform();
+    return this;
   }
 
   // --- filtering ---
@@ -102,60 +94,6 @@ public class MainPage {
 
   private By getFilterByText(String text) {
     return By.xpath(String.format(FILTER_BY_TEXT_TEMPLATE, text));
-  }
-
-  // --- elements visibility and attributes ---
-  public String getCurrentElementDomId() {
-    return currentElementDomId;
-  }
-
-  public boolean isElementVisible(String elementKey) {
-    return isVisible(getElementByByKey(elementKey));
-  }
-
-  public int visibleElementsCount(String elementKey) {
-    By by = getElementByByKey(elementKey);
-    currentElementDomId = webDriver.findElement(by).getAttribute("id");
-    return (int) webDriver.findElements(by)
-        .stream()
-        .filter(WebElement::isDisplayed)
-        .count();
-  }
-
-  private boolean isVisible(By by) {
-    boolean isVisible;
-    currentElementDomId = "not initialized";
-    try {
-      isVisible = webDriver.findElement(by).isDisplayed();
-      currentElementDomId = getElementIdByBy(by);
-    } catch (NotFoundException ex) {
-      isVisible = false;
-      //uncomment for debugging purpose
-      //throw new RuntimeException(ex.getMessage());
-    }
-    return isVisible;
-  }
-
-  private By getElementByByKey(String elementKey) {
-    String xpath = TestData.getElementXpath(elementKey);
-    String className = TestData.getElementClassName(elementKey);
-    String id = TestData.getElementId(elementKey);
-
-    if (xpath != null) {
-      return By.xpath(xpath);
-    } else if (className != null) {
-      return By.className(className);
-    } else if (id != null) {
-      return By.id(id);
-    } else {
-      throw new RuntimeException(
-          String.format("Element locator cannot be identified: %s. Please check available strategies and testdata.properties.", elementKey)
-      );
-    }
-  }
-
-  private String getElementIdByBy(By by) {
-    return webDriver.findElement(by).getAttribute("id");
   }
 
 }
